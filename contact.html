@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/nav.css">
+    <link rel="stylesheet" href="./public/css/intro-section.css">
+    <link rel="stylesheet" href="./public/css/content.css">
+    <link rel="stylesheet" href="./public/css/footer.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/cce4d0df7e.js" crossorigin="anonymous"></script>
+    <title>Store</title>
+</head>
+<body>
+
+<!-- top section -->
+    <ul class="sticky">
+        <span class="nav-logo">
+            LOGO
+        </span>
+        <span class="space">
+            <li>
+                <a href="#">PRODUCTS</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+        </span>
+    </ul>
+    <!-- responsive dropdown -->
+    <div class="sticky">
+        <div class="dropdown">
+            <span style="color: black; font-size: 18px;">
+                <i class="fas fa-bars"></i>
+            </span>
+            <div class="dropdown-content">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+            </div>
+        </div>
+    </div>
+<!-- navbar -->
+
+<br>
+<center>
+    <h1 style="text-align: center; font-size: 3em;">Contact Me</h1>
+    <form name="contact" netlify>
+        <p>
+          <label><input placeholder="Name" name="name" class="form-input" required type="text" /></label>
+        </p>
+        <p>
+          <label><input placeholder="email" name="email" class="form-input" required type="email" /></label>
+        </p>
+        <p>
+            <textarea class="form-input" name="message" spellcheck="true" maxlength="255" required placeholder="Your Message" id="" cols="50" rows="10"></textarea>
+        </p>
+        <p>
+          <button class="btn btn-primary" type="submit">Send</button>
+        </p>
+    </form>
+</center>
+    
+<script src="./public/js/index.js"></script>
+
+<br>
+<footer>
+    <div style="text-align: center;">
+        copyright: 2021, DevCodes.com
+    </div>
+</footer>
+</body>
+</html>
